@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the font family to Roboto */
+body {
+  font-family: sans-serif, 'Roboto';
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
